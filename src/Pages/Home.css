@@ -1,0 +1,59 @@
+.movieCard {
+  border-radius: 5px;
+}
+.movieCard:hover {
+  transition: 1s;
+  box-shadow: -1px -3px 10px 12px #000000a6;
+  border: solid 3px #000000e0;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #0000006b;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  padding: 10px;
+  opacity: 0;
+  color: #fff !important;
+}
+.cardBody:hover {
+  opacity: 1;
+  transition: 1s;
+}
+.dateBar {
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  background: #0000006b;
+  width: 100%;
+  font-size: 17px !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.socialIcon {
+  font-size: 25px;
+  cursor: pointer;
+  width: 25px;
+  margin: 0 10px;
+  color: #2a2a2a;
+}
+.socialIcon:hover {
+  color: #0d6dfd7b;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #0d6efd;
+  color: #0d6efd !important;
+}
+
+@media (max-width: 767px) {
+  .dateBar {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,25 @@
+.page-item.disabled,
+.page-link.disabled {
+  color: #000 !important;
+}
+.page-link {
+  background-color: #3a3a3a !important;
+  color: #0d6efd !important;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none !important;
+  margin: 5px;
+}
+.page-active {
+  background-color: #0d6efd !important;
+  color: #3a3a3a !important;
+}
+.page-link:hover {
+  border: none !important;
+}
+@media (max-width: 767px) {
+  .page-link {
+    font-size: 13px !important;
+    padding: 5px 5px !important;
+  }
+}
